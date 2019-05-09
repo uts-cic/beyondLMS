@@ -19,7 +19,7 @@ title_separator: false
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   A set of pages dealing with learning analytics beyond the LMS...
-baseurl: /beyondLMS
+baseurl: #/beyondLMS
 url: https://www.beyondLMS.org
 twitter_username: KirstyKitto
 github_username: kirstykitto
