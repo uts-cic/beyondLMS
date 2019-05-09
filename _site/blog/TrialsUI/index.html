@@ -1,0 +1,604 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.16.3 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Trialling the CLAToolkit - Dashboards and Adventures with IFN614 -</title>
+<meta name="description" content="Trialling the CLAToolkit">
+
+
+  <meta name="author" content="Kirsty Kitto">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content=" ">
+<meta property="og:title" content="Trialling the CLAToolkit - Dashboards and Adventures with IFN614">
+<meta property="og:url" content="http://localhost:4000/beyondLMS/blog/TrialsUI/">
+
+
+  <meta property="og:description" content="Trialling the CLAToolkit">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2015-11-09T00:00:00+11:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/beyondLMS/blog/TrialsUI/">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/beyondLMS/feed.xml" type="application/atom+xml" rel="alternate" title="  Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/beyondLMS/assets/css/main.css">
+
+<!--[if IE ]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/beyondLMS/"><img src="/beyondLMS/assets/images/cropped-Beyond-LMS-2.png" alt=""></a>
+        
+        <a class="site-title" href="/beyondLMS/"> </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/beyondLMS/about/" >About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/beyondLMS/posts/" >Posts</a>
+            </li><li class="masthead__menu-item">
+              <a href="/beyondLMS/tools/" >Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="/beyondLMS/dissemination/" >Dissemination</a>
+            </li><li class="masthead__menu-item">
+              <a href="/beyondLMS/dataPortability/" >Data Portability</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="/beyondLMS/assets/images/smallKitto.jpg" alt="Kirsty Kitto" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Kirsty Kitto</h3>
+    
+    
+      <p class="author__bio" itemprop="description">
+        Learning for a lifetime.
+      </p>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="http://www.users.on.net/~kirsty.kitto/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/KirstyKitto" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+          
+        
+          
+            <li><a href="https://github.com/kirstykitto/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Trialling the CLAToolkit - Dashboards and Adventures with IFN614">
+    <meta itemprop="description" content="So… its been a while. Sorry, but these last few months have been pretty busy. We have been madly rolling out functionality, finding out what people think about it, and then trying new things and upgrades. We have also been running a first trial with a real actual unit run at QUTIFN614: Information Programs  which is run by an academic in my School Kate Davis. Kate is one of your classic Teach in the Wild types. She has a long history of using innovative Wordpress set-ups for her classes that blow your standard LMS out of the water. Normally Kate spends a couple of weeks at the beginning of semester posting announcements in Blackboard (QUT’s standard LMS) saying that the class is not there, and that they should follow a link to her actual teaching site. Check out the difference in the two setups when it comes to IFN614:">
+    <meta itemprop="datePublished" content="November 09, 2015">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Trialling the CLAToolkit - Dashboards and Adventures with IFN614
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  4 minute read
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>So… its been a while. Sorry, but these last few months have been pretty busy. We have been madly rolling out functionality, finding out what people think about it, and then trying new things and upgrades. We have also been running a first trial with a real actual unit run at QUT
+<a href="http://2015.informationprograms.info/">IFN614: Information Programs</a>  which is run by an academic in my School <a href="http://higheredukate.com/who-is-kate/">Kate Davis</a>. Kate is one of your classic Teach in the Wild types. She has a long history of using innovative Wordpress set-ups for her classes that blow your standard LMS out of the water. Normally Kate spends a couple of weeks at the beginning of semester posting announcements in Blackboard (QUT’s standard LMS) saying that the class is not there, and that they should follow a link to her actual teaching site. Check out the difference in the two setups when it comes to IFN614:</p>
+
+<h4 id="blackboard">Blackboard:</h4>
+<p><img src="/beyondLMS/assets/images/IFN614-blackboard.jpg" alt="IFN614, Blackboard Site" class="align-center" /></p>
+
+<h4 id="versus-wordpress">Versus WordPress:</h4>
+
+<p><img src="/beyondLMS/assets/images/IFN614-wordpress.jpg" alt="IFN614, Wordpress Site" class="align-center" /></p>
+
+<p>Of particular interest to us, Kate has strong participation requirements for this unit, students need to post on blogs in the wordpress site, and participate in regular Twitter chats using hashtags specified at the beginning of semester. These chats go nuts. I have watched a couple and they get an insane amount of action. A couple of weeks ago Kate was telling me that she normally has three different screens focussed on different parts of the chat, and she still misses most of what is going on. Historically, Kate has had to manually trawl through twitter to work out how well her students participated in the unit… you can imagine how easy that is. This makes her a fantastic candidate for our project.. hopefully it is really going to help her out down the track.</p>
+
+<p>So. We gave Kate’s students the option to sign up for a trial of the CLA toolkit. Data was collected from the designated hashtags used in the class as well as from the Wordpress forums. The class has 34 students, and about a third signed up (twelve students were in the system the last time I checked). The class has pretty much finished now (they are all madly finishing off assignments etc.) so we pretty much have our full data set now. Lets use it go explore some of the reports that are available in the CLA toolkit.</p>
+
+<p>First, lets check out the Activity Dashboard for the unit.</p>
+
+<p><img src="/beyondLMS/assets/images/IFN614-Activity.jpg" alt="IFN614, Activity" class="align-center" /></p>
+
+<p>When do you think the twitter chats were? ;) Note that by the end of the semester these things were getting about 300 tweets just from the signed up cohort! (Although Kate herself was normally responsible for around 80 of them.. talk about <a href="https://coi.athabascau.ca/coi-model/description-teaching-presence/">teacher presence</a>!) Note also that the chats got more active as the class progressed and the class started finding their feet. See down the bottom there is a little slider? That lets people zoom down into more specific points in time. They can then filter some of the other reports off of this restricted period (at the moment this works with SNA and a wordcloud but this functionality should roll out to all the widgets over summer). The Activity report also lets the instructor drop down into the student dashboard, which I am a bit worried is too boring at the moment… In our ethics application we said that we would only show students data about their own behaviour in the system. This means that, for example, the SNA shown to the students is only about <i>their</i> tweets to someone else. Check out my student dashboard SNA for our PROJ-TEAM unit (which is collecting data from the #clatoolkit, #xAPI and #learninganalytics hashtags).</p>
+
+<p><img src="/beyondLMS/assets/images/PROJ-TEAM-Student.jpg" alt="Student dashboard for project team" class="align-center" /></p>
+
+<p>That shot also shows you another feature - students can select specific links and then see what interactions led to those links in another report below… here we see some of the places where I have mentioned @aneesha in a tweet. But back to the point… Here is the equivalent instructor facing report for PROJ-TEAM</p>
+
+<p><img src="/beyondLMS/assets/images/PROJ-TEAM-SNA.jpg" alt="SNA for the project team" class="align-center" /></p>
+
+<p>Its a lot more interesting hey? We are currently trying to work out what a nice balance is between privacy and information.. I think at the moment we might be leaning a bit too much towards privacy. Might have to go back and get a variation to the ethics application once we work out a good balance. Now, just as an aside.. If you explore that shot you can also see that a couple of the project team have not signed up yet.. You should totally pay them out if you work out who they are ;) So.. anyway this instructor facing SNA report also lets you do the click on a link and explore specific interactions, which is really useful for working out how different members of a cohort are interacting with one another. And if we think back to the Activity report then we should recall that we can look at the interactions that occurred over a specific more limited period of time - another feature that I have been using quite a bit.</p>
+
+<p>One more set of reports are currently available, geared towards Content Analysis. These give sentiment analysis, a word cloud and a Topic Model based on <a href="http://nlp.stanford.edu/events/illvi2014/papers/sievert-illvi2014.pdf">LDAvis</a></p>
+
+<p><img src="/beyondLMS/assets/images/PROJ-TEAM-Content.jpg" alt="Project team content dashboard" class="align-center" /></p>
+
+<p>This report is going to see a lot of development over the next few months - fun times ahead! :)</p>
+
+<p>Anywho.. back to IFN614..
+Here is a zoomed out representation of the Social Network Analysis of the class that Kate can see at the moment.</p>
+
+<p><img src="/beyondLMS/assets/images/IFN614-SNA.jpg" alt="IFN614, SNA" class="align-center" /></p>
+
+<p>Cool huh? Its a pretty connected class.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/beyondLMS/tags/#clatoolkit" class="page__taxonomy-item" rel="tag">CLAtoolkit</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/beyondLMS/tags/#connected-learning-analytics" class="page__taxonomy-item" rel="tag">connected learning analytics</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/beyondLMS/tags/#content-analysis" class="page__taxonomy-item" rel="tag">Content Analysis</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/beyondLMS/tags/#dashboards" class="page__taxonomy-item" rel="tag">dashboards</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/beyondLMS/tags/#sna" class="page__taxonomy-item" rel="tag">SNA</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/beyondLMS/tags/#user-trial" class="page__taxonomy-item" rel="tag">user trial</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/beyondLMS/categories/#blog" class="page__taxonomy-item" rel="tag">Blog</a>
+    
+    </span>
+  </p>
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2015-11-09T00:00:00+11:00">November 09, 2015</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Trialling+the+CLAToolkit+-+Dashboards+and+Adventures+with+IFN614%20http%3A%2F%2Flocalhost%3A4000%2FbeyondLMS%2Fblog%2FTrialsUI%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FbeyondLMS%2Fblog%2FTrialsUI%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2FbeyondLMS%2Fblog%2FTrialsUI%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/beyondLMS/blog/xAPISteppingOutoftheLRS/" class="pagination--pager" title="xAPI Analytics - Stepping out of the LRS (Part 1)
+">Previous</a>
+    
+    
+      <a href="/beyondLMS/blog/ALASI15Part1/" class="pagination--pager" title="Down and Dirty with Data for SLA - Part 1
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You May Also Enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/beyondLMS/blog/Reboot/" rel="permalink">Reboot
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Right - I have finally found some time to breathe, which means I have managed to update the beyondLMS website! This is good, as you might have noticed that t...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/beyondLMS/blog/excited/" rel="permalink">Excited about Data Interoperability
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  4 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Ok, I will admit it. I am a bit excited. I think that the next few months could prove to be a bit of a turning point, in a number of different ways. Lots of ...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/beyondLMS/blog/ALASI15Part2/" rel="permalink">Down and Dirty with Data for SLA - Part 2
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">This blog post is the second of two aimed at people attending ALASI 2015. Check out the first post, which has some pre-workshop preparation, and most importa...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/beyondLMS/blog/ALASI15Part1/" rel="permalink">Down and Dirty with Data for SLA - Part 1
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  4 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">This blog post is really aimed at people attending ALASI 2015 where we will be running a workshop.  However, the workshop itself will be blended.. you can pa...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><input type="search" id="search" aria-placeholder="Enter your search term..." class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+    <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div class="page__footer">
+      <footer>
+        
+<!-- start custom footer snippets -->
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<!-- end custom footer snippets -->
+
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/KirstyKitto" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/kirstykitto/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    <li><a href="/beyondLMS/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2019  . Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/beyondLMS/assets/js/main.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+
+
+
+
+<script src="/beyondLMS/assets/js/lunr/lunr.min.js"></script>
+<script src="/beyondLMS/assets/js/lunr/lunr-store.js"></script>
+<script src="/beyondLMS/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

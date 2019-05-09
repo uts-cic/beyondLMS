@@ -1,0 +1,11 @@
+main:
+  - title: "About"
+    url: /about/
+  - title: "Posts"
+    url: /posts/
+  - title: "Tools"
+    url: /tools/
+  - title: "Dissemination"
+    url: /dissemination/
+  - title: "Data Portability"
+    url: /dataPortability/

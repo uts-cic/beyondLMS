@@ -1,0 +1,19 @@
+
+
+kirsty:
+  name   : "Kirsty Kitto"
+  avatar : "/assets/images/smallKitto.jpg"
+  bio    : "Learning for a lifetime."
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "http://www.users.on.net/~kirsty.kitto/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/KirstyKitto"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/kirstykitto/"
+
+  aneesha:
+    name: "Aneesha Bakharia"
