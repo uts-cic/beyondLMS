@@ -19,12 +19,12 @@ There are a number of repositories associated with this data pipeline. All are r
 
 - [https://github.com/uts-cic/canvas-extract](https://github.com/uts-cic/canvas-extract)
 - [https://github.com/uts-cic/lrs-mongo](https://github.com/uts-cic/lrs-mongo)
-- [https://github.com/uts-cic/la-graphql-api](https://github.com/uts-cic/la-graphql-api)
-- [https://github.com/uts-cic/LA-API-dashboards](https://github.com/uts-cic/LA-API-dashboards)
+- [https://github.com/uts-cic/graphql-la-api](https://github.com/uts-cic/graphql-la-api)
+- [https://github.com/uts-cic/dashboards-la-api](https://github.com/uts-cic/dashboards-la-api)
 - [https://github.com/uts-cic/xAPI-profiles](https://github.com/uts-cic/xAPI-profiles)
 
 A number of other tools will be interfaced with the LA-API. In the first case these are tools developed by [UTS:CIC](https://utscic.edu.au/).
 
 ### Contributing
 
-If you are interested in contributing to this LA infrastructure project then you could fork and propose changes to the GraphQL schema being used by the LA-API, ([see the repo](https://github.com/uts-cic/la-graphql-api)). Feel free to [contact us](mailto:kirsty.kitto@uts.edu.au) if you would like to get more information about this project. 
+If you are interested in contributing to this LA infrastructure project then you could fork and propose changes to the GraphQL schema being used by the LA-API, ([see the repo](https://github.com/uts-cic/la-graphql-api)). Feel free to [contact us](mailto:kirsty.kitto@uts.edu.au) if you would like to get more information about this project.
