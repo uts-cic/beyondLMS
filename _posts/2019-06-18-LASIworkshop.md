@@ -13,9 +13,7 @@ Welcome! This blog post has resources and links for the workshop I am giving for
 
 ## My Slides
 
-[Download them]({{site.baseurl}}/assets/slides/BuildingLAEcosystems.pptx) if you want to have a look! (Don't skip ahead though! Grrrr.) Or you can have a look  at them embedded below.
-
-<iframe src = "{{site.baseurl}}/assets/slides/BuildingLAEcosystems.pdf" width='100%' height='500' type='application/pdf' allowfullscreen></iframe>
+[Download them]({{site.baseurl}}/assets/slides/BuildingLAEcosystems.pptx) if you want to have a look! (Don't skip ahead though! Grrrr.) 
 
 ##  Activity: Build a LRP
 

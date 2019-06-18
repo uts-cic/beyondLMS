@@ -55,7 +55,7 @@ var store = [{
         "url": "http://localhost:4000/blog/DataPortGDPR/",
         "teaser":null},{
         "title": "Building LA ecosystems",
-        "excerpt":"Welcome! This blog post has resources and links for the workshop I am giving for LASI19 on Building Learning Analytics Ecosystems. Follow the links alongside to find the relevant activity. My Slides Download them if you want to have a look! (Don’t skip ahead though! Grrrr.) Or you can have...","categories": ["Blog"],
+        "excerpt":"Welcome! This blog post has resources and links for the workshop I am giving for LASI19 on Building Learning Analytics Ecosystems. Follow the links alongside to find the relevant activity. My Slides Download them if you want to have a look! (Don’t skip ahead though! Grrrr.) Activity: Build a LRP...","categories": ["Blog"],
         "tags": ["data interoperability","xAPI","Caliper","data portability","lifelong learning"],
         "url": "http://localhost:4000/blog/LASIworkshop/",
         "teaser":null}]
