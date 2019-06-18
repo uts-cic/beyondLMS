@@ -95,6 +95,7 @@ Can you fork the LA-API/mongo-extract and extend them to add new functionality
 
 **Resources that might help:**
 - [LA-API page]({{site.baseurl}}/tools/LA-API/)
+- [CLA toolkit page]({{site.baseurl}}/tools/CLAtoolkit/)
 - [GraphQL specification](https://graphql.github.io/graphql-spec/) and [documentation](https://graphql.org/)
 - Ask me to share some example data via our GraphiQL site!
 
@@ -106,6 +107,7 @@ Can you leverage data interop to build dashboards that self populate using all r
 **Resources that might help:**
 - [LA-API page]({{site.baseurl}}/tools/LA-API/)
 - [GraphQL specification](https://graphql.github.io/graphql-spec/) and [documentation](https://graphql.org/)
+- a [configurable dashboard prototype](http://canvasdashboard.utscic.edu.au/) we built a couple  of years ago, which does not currently link to data (sourcecode [here](https://github.com/uts-cic/CanvasDashboard))
 - Ask me to share some example data via our GraphiQL site!
 
 ### Challenge 5: explore the ethics of data interoperability

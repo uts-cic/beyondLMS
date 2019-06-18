@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-06-18T01:36:48-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> </title><subtitle>A set of pages dealing with learning analytics beyond the LMS...</subtitle><author><name>Kirsty Kitto</name></author><entry><title type="html">Building LA ecosystems</title><link href="http://localhost:4000/blog/LASIworkshop/" rel="alternate" type="text/html" title="Building LA ecosystems" /><published>2019-06-18T00:00:00-07:00</published><updated>2019-06-18T00:00:00-07:00</updated><id>http://localhost:4000/blog/LASIworkshop</id><content type="html" xml:base="http://localhost:4000/blog/LASIworkshop/">&lt;p&gt;Welcome! This blog post has resources and links for the workshop I am giving for &lt;a href=&quot;https://solaresearch.org/events/lasi/lasi19/&quot;&gt;LASI19&lt;/a&gt; on &lt;em&gt;Building Learning Analytics Ecosystems&lt;/em&gt;. Follow the links alongside to find the relevant activity.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-06-18T09:56:33-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> </title><subtitle>A set of pages dealing with learning analytics beyond the LMS...</subtitle><author><name>Kirsty Kitto</name></author><entry><title type="html">Building LA ecosystems</title><link href="http://localhost:4000/blog/LASIworkshop/" rel="alternate" type="text/html" title="Building LA ecosystems" /><published>2019-06-18T00:00:00-07:00</published><updated>2019-06-18T00:00:00-07:00</updated><id>http://localhost:4000/blog/LASIworkshop</id><content type="html" xml:base="http://localhost:4000/blog/LASIworkshop/">&lt;p&gt;Welcome! This blog post has resources and links for the workshop I am giving for &lt;a href=&quot;https://solaresearch.org/events/lasi/lasi19/&quot;&gt;LASI19&lt;/a&gt; on &lt;em&gt;Building Learning Analytics Ecosystems&lt;/em&gt;. Follow the links alongside to find the relevant activity.&lt;/p&gt;
 
 &lt;h2 id=&quot;my-slides&quot;&gt;My Slides&lt;/h2&gt;
 
@@ -99,6 +99,7 @@
 &lt;p&gt;&lt;strong&gt;Resources that might help:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;/tools/LA-API/&quot;&gt;LA-API page&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/tools/CLAtoolkit/&quot;&gt;CLA toolkit page&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://graphql.github.io/graphql-spec/&quot;&gt;GraphQL specification&lt;/a&gt; and &lt;a href=&quot;https://graphql.org/&quot;&gt;documentation&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Ask me to share some example data via our GraphiQL site!&lt;/li&gt;
 &lt;/ul&gt;
@@ -111,6 +112,7 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;/tools/LA-API/&quot;&gt;LA-API page&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://graphql.github.io/graphql-spec/&quot;&gt;GraphQL specification&lt;/a&gt; and &lt;a href=&quot;https://graphql.org/&quot;&gt;documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;a &lt;a href=&quot;http://canvasdashboard.utscic.edu.au/&quot;&gt;configurable dashboard prototype&lt;/a&gt; we built a couple  of years ago, which does not currently link to data (sourcecode &lt;a href=&quot;https://github.com/uts-cic/CanvasDashboard&quot;&gt;here&lt;/a&gt;)&lt;/li&gt;
   &lt;li&gt;Ask me to share some example data via our GraphiQL site!&lt;/li&gt;
 &lt;/ul&gt;
 
