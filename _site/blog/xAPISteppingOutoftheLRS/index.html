@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.16.3 by Michael Rose
+  Minimal Mistakes Jekyll Theme 4.16.4 by Michael Rose
   Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
@@ -18,7 +18,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content=" ">
 <meta property="og:title" content="xAPI Analytics - Stepping out of the LRS (Part 1)">
-<meta property="og:url" content="http://localhost:4000/beyondLMS/blog/xAPISteppingOutoftheLRS/">
+<meta property="og:url" content="http://localhost:4000/blog/xAPISteppingOutoftheLRS/">
 
 
   <meta property="og:description" content="Using opensource tools to build custom dashboards and reports for xAPI data">
@@ -29,14 +29,14 @@
 
 
 
-  <meta property="article:published_time" content="2015-07-27T00:00:00+10:00">
+  <meta property="article:published_time" content="2015-07-27T00:00:00-07:00">
 
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/beyondLMS/blog/xAPISteppingOutoftheLRS/">
+<link rel="canonical" href="http://localhost:4000/blog/xAPISteppingOutoftheLRS/">
 
 
 
@@ -53,7 +53,7 @@
 <!-- end _includes/seo.html -->
 
 
-<link href="/beyondLMS/feed.xml" type="application/atom+xml" rel="alternate" title="  Feed">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="  Feed">
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -63,7 +63,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="/beyondLMS/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/main.css">
 
 <!--[if IE ]>
   <style>
@@ -91,6 +91,14 @@
   </head>
 
   <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
 
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
@@ -103,19 +111,19 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/beyondLMS/"><img src="/beyondLMS/assets/images/cropped-Beyond-LMS-2.png" alt=""></a>
+          <a class="site-logo" href="/"><img src="/assets/images/cropped-Beyond-LMS-2.png" alt=""></a>
         
-        <a class="site-title" href="/beyondLMS/"> </a>
+        <a class="site-title" href="/"> </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/beyondLMS/about/" >About</a>
+              <a href="/about/" >About</a>
             </li><li class="masthead__menu-item">
-              <a href="/beyondLMS/posts/" >Posts</a>
+              <a href="/posts/" >Posts</a>
             </li><li class="masthead__menu-item">
-              <a href="/beyondLMS/tools/" >Tools</a>
+              <a href="/tools/" >Tools</a>
             </li><li class="masthead__menu-item">
-              <a href="/beyondLMS/dissemination/" >Dissemination</a>
+              <a href="/dissemination/" >Dissemination</a>
             </li><li class="masthead__menu-item">
-              <a href="/beyondLMS/dataPortability/" >Data Portability</a>
+              <a href="/dataPortability/" >Data Portability</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
@@ -286,23 +294,23 @@
     
       
       
-      <a href="/beyondLMS/tags/#dashboards" class="page__taxonomy-item" rel="tag">dashboards</a><span class="sep">, </span>
+      <a href="/tags/#dashboards" class="page__taxonomy-item" rel="tag">dashboards</a><span class="sep">, </span>
     
       
       
-      <a href="/beyondLMS/tags/#learning-analytics" class="page__taxonomy-item" rel="tag">learning analytics</a><span class="sep">, </span>
+      <a href="/tags/#learning-analytics" class="page__taxonomy-item" rel="tag">learning analytics</a><span class="sep">, </span>
     
       
       
-      <a href="/beyondLMS/tags/#lrs" class="page__taxonomy-item" rel="tag">LRS</a><span class="sep">, </span>
+      <a href="/tags/#lrs" class="page__taxonomy-item" rel="tag">LRS</a><span class="sep">, </span>
     
       
       
-      <a href="/beyondLMS/tags/#reports" class="page__taxonomy-item" rel="tag">reports</a><span class="sep">, </span>
+      <a href="/tags/#reports" class="page__taxonomy-item" rel="tag">reports</a><span class="sep">, </span>
     
       
       
-      <a href="/beyondLMS/tags/#xapi" class="page__taxonomy-item" rel="tag">xAPI</a>
+      <a href="/tags/#xapi" class="page__taxonomy-item" rel="tag">xAPI</a>
     
     </span>
   </p>
@@ -323,36 +331,36 @@
     
       
       
-      <a href="/beyondLMS/categories/#blog" class="page__taxonomy-item" rel="tag">Blog</a>
+      <a href="/categories/#blog" class="page__taxonomy-item" rel="tag">Blog</a>
     
     </span>
   </p>
 
 
         
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2015-07-27T00:00:00+10:00">July 27, 2015</time></p>
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2015-07-27T00:00:00-07:00">July 27, 2015</time></p>
         
       </footer>
 
       <section class="page__share">
   
 
-  <a href="https://twitter.com/intent/tweet?text=xAPI+Analytics+-+Stepping+out+of+the+LRS+%28Part+1%29%20http%3A%2F%2Flocalhost%3A4000%2FbeyondLMS%2Fblog%2FxAPISteppingOutoftheLRS%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=xAPI+Analytics+-+Stepping+out+of+the+LRS+%28Part+1%29%20http%3A%2F%2Flocalhost%3A4000%2Fblog%2FxAPISteppingOutoftheLRS%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FbeyondLMS%2Fblog%2FxAPISteppingOutoftheLRS%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fblog%2FxAPISteppingOutoftheLRS%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2FbeyondLMS%2Fblog%2FxAPISteppingOutoftheLRS%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fblog%2FxAPISteppingOutoftheLRS%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/beyondLMS/blog/xAPICamp/" class="pagination--pager" title="xAPI Camp
+      <a href="/blog/xAPICamp/" class="pagination--pager" title="xAPI Camp
 ">Previous</a>
     
     
-      <a href="/beyondLMS/blog/TrialsUI/" class="pagination--pager" title="Trialling the CLAToolkit - Dashboards and Adventures with IFN614
+      <a href="/blog/TrialsUI/" class="pagination--pager" title="Trialling the CLAToolkit - Dashboards and Adventures with IFN614
 ">Next</a>
     
   </nav>
@@ -377,7 +385,63 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/beyondLMS/blog/Reboot/" rel="permalink">Reboot
+        <a href="/blog/LASIworkshop/" rel="permalink">Building LA ecosystems
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  5 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Welcome! This blog post has resources and links for the workshop I am giving for LASI19 on Building Learning Analytics Ecosystems. Follow the links alongside...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/blog/DataPortGDPR/" rel="permalink">What does data portability actually entail?
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Today I read a pretty interesting paper on GDPRs right to data portability, or Article 20, which states that:
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/blog/Reboot/" rel="permalink">Reboot
 </a>
       
     </h2>
@@ -404,7 +468,7 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/beyondLMS/blog/excited/" rel="permalink">Excited about Data Interoperability
+        <a href="/blog/excited/" rel="permalink">Excited about Data Interoperability
 </a>
       
     </h2>
@@ -418,60 +482,6 @@
 </p>
     
     <p class="archive__item-excerpt" itemprop="description">Ok, I will admit it. I am a bit excited. I think that the next few months could prove to be a bit of a turning point, in a number of different ways. Lots of ...</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/beyondLMS/blog/ALASI15Part2/" rel="permalink">Down and Dirty with Data for SLA - Part 2
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  1 minute read
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">This blog post is the second of two aimed at people attending ALASI 2015. Check out the first post, which has some pre-workshop preparation, and most importa...</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/beyondLMS/blog/ALASI15Part1/" rel="permalink">Down and Dirty with Data for SLA - Part 1
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  4 minute read
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">This blog post is really aimed at people attending ALASI 2015 where we will be running a workshop.  However, the workshop itself will be blended.. you can pa...</p>
   </article>
 </div>
 
@@ -492,7 +502,7 @@
       </div>
     
 
-    <div class="page__footer">
+    <div id="footer" class="page__footer">
       <footer>
         
 <!-- start custom footer snippets -->
@@ -515,7 +525,7 @@
       
     
 
-    <li><a href="/beyondLMS/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 
@@ -525,15 +535,15 @@
     </div>
 
     
-  <script src="/beyondLMS/assets/js/main.min.js"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+  <script src="/assets/js/main.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
 
 
 
 
-<script src="/beyondLMS/assets/js/lunr/lunr.min.js"></script>
-<script src="/beyondLMS/assets/js/lunr/lunr-store.js"></script>
-<script src="/beyondLMS/assets/js/lunr/lunr-en.js"></script>
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
 
 
 

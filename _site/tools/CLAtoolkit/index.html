@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.16.3 by Michael Rose
+  Minimal Mistakes Jekyll Theme 4.16.4 by Michael Rose
   Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
@@ -18,7 +18,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content=" ">
 <meta property="og:title" content="The Connected Learning Analytics (CLA) toolkit">
-<meta property="og:url" content="http://localhost:4000/beyondLMS/tools/CLAtoolkit/">
+<meta property="og:url" content="http://localhost:4000/tools/CLAtoolkit/">
 
 
 
@@ -32,7 +32,7 @@
 
 
 
-<link rel="canonical" href="http://localhost:4000/beyondLMS/tools/CLAtoolkit/">
+<link rel="canonical" href="http://localhost:4000/tools/CLAtoolkit/">
 
 
 
@@ -49,7 +49,7 @@
 <!-- end _includes/seo.html -->
 
 
-<link href="/beyondLMS/feed.xml" type="application/atom+xml" rel="alternate" title="  Feed">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="  Feed">
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -59,7 +59,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="/beyondLMS/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/main.css">
 
 <!--[if IE ]>
   <style>
@@ -87,6 +87,14 @@
   </head>
 
   <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
 
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
@@ -99,19 +107,19 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/beyondLMS/"><img src="/beyondLMS/assets/images/cropped-Beyond-LMS-2.png" alt=""></a>
+          <a class="site-logo" href="/"><img src="/assets/images/cropped-Beyond-LMS-2.png" alt=""></a>
         
-        <a class="site-title" href="/beyondLMS/"> </a>
+        <a class="site-title" href="/"> </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/beyondLMS/about/" >About</a>
+              <a href="/about/" >About</a>
             </li><li class="masthead__menu-item">
-              <a href="/beyondLMS/posts/" >Posts</a>
+              <a href="/posts/" >Posts</a>
             </li><li class="masthead__menu-item">
-              <a href="/beyondLMS/tools/" >Tools</a>
+              <a href="/tools/" >Tools</a>
             </li><li class="masthead__menu-item">
-              <a href="/beyondLMS/dissemination/" >Dissemination</a>
+              <a href="/dissemination/" >Dissemination</a>
             </li><li class="masthead__menu-item">
-              <a href="/beyondLMS/dataPortability/" >Data Portability</a>
+              <a href="/dataPortability/" >Data Portability</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
@@ -241,9 +249,9 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>The CLA toolkit is designed to interface with a variety of social media sources using the APIs that they make available to extract data about a student’s participation in defined learning activities. It makes use  of the <a href="https://www.adlnet.gov/research/performance-tracking-analysis/experience-api/">Experience API (xAPI)</a> data standard to store information in an interoperable format that can be used in later analysis (see our pages on <a href="/beyondLMS/dataPortability/">data portability</a> for more information about that).</p>
+        <p>The CLA toolkit is designed to interface with a variety of social media sources using the APIs that they make available to extract data about a student’s participation in defined learning activities. It makes use  of the <a href="https://www.adlnet.gov/research/performance-tracking-analysis/experience-api/">Experience API (xAPI)</a> data standard to store information in an interoperable format that can be used in later analysis (see our pages on <a href="/dataPortability/">data portability</a> for more information about that).</p>
 
-<p><img src="/beyondLMS/assets/images/CLAToolkit.png" alt="The CLA toolkit" /></p>
+<p><img src="/assets/images/CLAToolkit.png" alt="The CLA toolkit" /></p>
 
 <p>The CLA toolkit gives students access to the data that they generate. They  can decide which social media accounts to link using this tool, which only collects data for specified activities in those  accounts. This  both preserves student privacy (as students can opt in and out of any data collection), and enables student control over what subset of their social media data is collected by an institution. The CLA toolkit enables students to explore the data that they generate in social media environments and as a consequence, promotes awareness of, and improves data literacy.</p>
 
@@ -263,11 +271,11 @@
 
 <p>Check out the codebase <a href="https://github.com/uts-cic/CLAtoolkitv2">here</a></p>
 
-<p>Analytics and reports are provided by the <a href="/beyondLMS/tools/LA-API/">LA-API</a>, which is now being developed as a separate set of projects.</p>
+<p>Analytics and reports are provided by the <a href="/tools/LA-API/">LA-API</a>, which is now being developed as a separate set of projects.</p>
 
 <h3 id="code-base---cla-toolkit-v1">Code base - CLA toolkit V1</h3>
 
-<p>Version 1 one of the CLA toolkit was developed in 2015, using python with a django framework, and highcharts for dashboards. You can read about how we used it in trials with students in <a href="/beyondLMS/assets/papers/Published-3607-12964-2-PB.pdf">this</a> paper.</p>
+<p>Version 1 one of the CLA toolkit was developed in 2015, using python with a django framework, and highcharts for dashboards. You can read about how we used it in trials with students in <a href="/assets/papers/Published-3607-12964-2-PB.pdf">this</a> paper.</p>
 
 <p>This version of the codebase became increasingly difficult to maintain. It ended up with a tightly coupled architecture, with LA being stored during data capture. This meant that functionality was often broken as data structures evolved to cater for new data imports from different social media providers.</p>
 
@@ -311,7 +319,7 @@
       </div>
     
 
-    <div class="page__footer">
+    <div id="footer" class="page__footer">
       <footer>
         
 <!-- start custom footer snippets -->
@@ -334,7 +342,7 @@
       
     
 
-    <li><a href="/beyondLMS/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 
@@ -344,15 +352,15 @@
     </div>
 
     
-  <script src="/beyondLMS/assets/js/main.min.js"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+  <script src="/assets/js/main.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
 
 
 
 
-<script src="/beyondLMS/assets/js/lunr/lunr.min.js"></script>
-<script src="/beyondLMS/assets/js/lunr/lunr-store.js"></script>
-<script src="/beyondLMS/assets/js/lunr/lunr-en.js"></script>
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
 
 
 

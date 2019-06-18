@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.16.3 by Michael Rose
+  Minimal Mistakes Jekyll Theme 4.16.4 by Michael Rose
   Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
@@ -18,7 +18,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content=" ">
 <meta property="og:title" content="Data Portability">
-<meta property="og:url" content="http://localhost:4000/beyondLMS/dataPortability/">
+<meta property="og:url" content="http://localhost:4000/dataPortability/">
 
 
 
@@ -32,7 +32,7 @@
 
 
 
-<link rel="canonical" href="http://localhost:4000/beyondLMS/dataPortability/">
+<link rel="canonical" href="http://localhost:4000/dataPortability/">
 
 
 
@@ -49,7 +49,7 @@
 <!-- end _includes/seo.html -->
 
 
-<link href="/beyondLMS/feed.xml" type="application/atom+xml" rel="alternate" title="  Feed">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="  Feed">
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -59,7 +59,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="/beyondLMS/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/main.css">
 
 <!--[if IE ]>
   <style>
@@ -87,6 +87,14 @@
   </head>
 
   <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
 
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
@@ -99,19 +107,19 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/beyondLMS/"><img src="/beyondLMS/assets/images/cropped-Beyond-LMS-2.png" alt=""></a>
+          <a class="site-logo" href="/"><img src="/assets/images/cropped-Beyond-LMS-2.png" alt=""></a>
         
-        <a class="site-title" href="/beyondLMS/"> </a>
+        <a class="site-title" href="/"> </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/beyondLMS/about/" >About</a>
+              <a href="/about/" >About</a>
             </li><li class="masthead__menu-item">
-              <a href="/beyondLMS/posts/" >Posts</a>
+              <a href="/posts/" >Posts</a>
             </li><li class="masthead__menu-item">
-              <a href="/beyondLMS/tools/" >Tools</a>
+              <a href="/tools/" >Tools</a>
             </li><li class="masthead__menu-item">
-              <a href="/beyondLMS/dissemination/" >Dissemination</a>
+              <a href="/dissemination/" >Dissemination</a>
             </li><li class="masthead__menu-item">
-              <a href="/beyondLMS/dataPortability/" >Data Portability</a>
+              <a href="/dataPortability/" >Data Portability</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
@@ -225,7 +233,7 @@
       
         <img src=
         
-          "/beyondLMS/assets/images/dataPortability.png"
+          "/assets/images/dataPortability.png"
         
         alt="Data portability icon">
       
@@ -317,17 +325,17 @@
 
 <p>Want an intro to all this? Here are the slides from a workshop that the BeyondLMS project lead (Kirsty Kitto) gave at the learning analytics track of <a href="http://www.elearningkorea.org/en/business/business3?pgcode=15">eLearning Korea</a> during 2018. It introduces the two standards (but with a core focus on xAPI), along with their advantages and disadvantages for achieving data portability over a lifetime.</p>
 
-<iframe src="/beyondLMS/assets/slides/Kitto-xAPI.pdf" width="100%" height="500" allowfullscreen="" type="application/pdf"></iframe>
+<iframe src="/assets/slides/Kitto-xAPI.pdf" width="100%" height="500" allowfullscreen="" type="application/pdf"></iframe>
 
 <p>If  you want to find out more about Caliper,  then the talk at the same event by Markus Gylling is a good place to go!</p>
 
-<iframe src="/beyondLMS/assets/slides/LASI_Markus_Gylling_mgy-seoul-sep2018.pdf" width="100%" height="500" allowfullscreen="" type="application/pdf"></iframe>
+<iframe src="/assets/slides/LASI_Markus_Gylling_mgy-seoul-sep2018.pdf" width="100%" height="500" allowfullscreen="" type="application/pdf"></iframe>
 
 <h2 id="the-problem-with-standards">The problem with standards</h2>
 
 <p>While we have been very involved in educational data standards (and in particular xAPI) for  the BeyondLMS project, there have been <a href="https://er.educause.edu/articles/2017/7/the-promise-of-learning-data-interoperability">ongoing challenges</a> in getting people to follow them when building learning ecosystems. If you work in a large education provider (like a university) then you will probably find yourself dealing with tools that emit data conforming to both… or neither. People just don’t tend to follow standards when they build their tools, often because it involves considerably more effort. But  even when they do, we often find that the resulting data is not interoperable anyway.</p>
 
-<p>We are developing the <a href="/beyondLMS/tools/LA-API/">Learning Analytics API (LA-API)</a> as a solution to this problem. It implements a form of <em>pragmatic data interoperability</em>, using NLP and GraphQL to flexibly map between data from different formats. Go check out the <a href="/beyondLMS/tools/LA-API/">more detailed pages</a> to find out more.</p>
+<p>We are developing the <a href="/tools/LA-API/">Learning Analytics API (LA-API)</a> as a solution to this problem. It implements a form of <em>pragmatic data interoperability</em>, using NLP and GraphQL to flexibly map between data from different formats. Go check out the <a href="/tools/LA-API/">more detailed pages</a> to find out more.</p>
 
         
       </section>
@@ -362,7 +370,7 @@
       </div>
     
 
-    <div class="page__footer">
+    <div id="footer" class="page__footer">
       <footer>
         
 <!-- start custom footer snippets -->
@@ -385,7 +393,7 @@
       
     
 
-    <li><a href="/beyondLMS/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 
@@ -395,15 +403,15 @@
     </div>
 
     
-  <script src="/beyondLMS/assets/js/main.min.js"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+  <script src="/assets/js/main.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
 
 
 
 
-<script src="/beyondLMS/assets/js/lunr/lunr.min.js"></script>
-<script src="/beyondLMS/assets/js/lunr/lunr-store.js"></script>
-<script src="/beyondLMS/assets/js/lunr/lunr-en.js"></script>
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
 
 
 
