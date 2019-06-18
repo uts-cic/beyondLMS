@@ -113,4 +113,6 @@ Can you leverage data interop to build dashboards that self populate using all r
 {: .notice--info}
 What might go wrong if data flows across institutional boundaries?
 
-De Hert, P., Papakonstantinou, V., Malgieri, G., Beslay, L., & Sanchez, I. (2018). [The right to data portability in the GDPR: Towards user-centric interoperability of digital services](https://www.sciencedirect.com/science/article/pii/S0267364917303333). Computer Law & Security Review, 34(2), 193-203.
+- Ask Kirsty to share the paper she just wrote on this issue...
+- Have a look at this [white paper](https://www.researchgate.net/profile/Deborah_West7/publication/332263485_The_Ethics_of_Learning_Analytics_in_Australian_Higher_Education_DISCUSSION_PAPER_PREPARED_BY/links/5caab27e92851c64bd57b3f1/The-Ethics-of-Learning-Analytics-in-Australian-Higher-Education-DISCUSSION-PAPER-PREPARED-BY.pdf) on the topic (published in 2019)
+- Look up anything by Prinsloo and Slade
