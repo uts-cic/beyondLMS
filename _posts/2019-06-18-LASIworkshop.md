@@ -51,7 +51,7 @@ Below you will see some more detailed instructions about how to do this... pair 
   - are your statements legal? Check the spec, or... see the next step
   - check the log entries... you might find some error messages pertaining to your LRP (where are these in this LRS? Can you find them?)
   - have you got your `xapiwrapper.min.js` and `cryptojs_v3.1.2.js` files in the right place? NB. you need to have a wrapper file for your `LRP.html` file to work!
-  - if you are still having troubles then the `LRP-example.html` file should work... (if you have the wrappers etc. in the ame folder)
+  - if you are still having troubles then the `LRP-example.html` file should work... (if you have the wrappers etc. in the same folder)
 1. Go and have a look at the other statements in the LRS! What analytics and reporting does it provide? Are they any good?
 1. Can you extend your LRP to provide more information? What about a `context` element? Maybe you can add a second button or other thing to the page... how would you define a statement for that object?
 1. Try  sending your statements to a *different* LRS! Some of the other free ones are [Yet](https://www.yetanalytics.com/free-sandbox-account), [watershed](https://www.watershedlrs.com/product/pricing/essentials-learning-record-store  
